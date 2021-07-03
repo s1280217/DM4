@@ -23,5 +23,15 @@ int main(){
 
     }
 printf("Total value  %d \n",sum);
+  
+  if(sum>7)
+    {
+      printf("%s win!!\n",str);
+    }
+
+  else
+    {
+      printf("%s lose\n",str);
+    }
   return 0;
 }
